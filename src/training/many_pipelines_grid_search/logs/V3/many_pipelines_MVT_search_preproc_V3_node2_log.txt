@@ -1,0 +1,34 @@
+### LOG many_pipelines_MVT_search_preproc V3 ############################
+Name of the results: many_pipelines_MVT_search_preproc
+Version: 3
+Node index: 2
+Date: 2024-03-04 16:20:36
+
+### DEVICE ############################
+Number of nodes: 2
+Number of cores: 6
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 1
+Number of param per core: 0
+Estimated time for this node: 0.0 minutes, 0.0 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [-0.75], 'EPOCHS_LENGTH': [1.7], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [-6], 'FMIN': [9], 'FMAX': [30]}
+
+### Results preprocessing ############################
+Preprocessing done, time: 8.257094403107962 minutes, 0.13761824005179935 hours
+
+### Pipeline ############################
+Number of pipelines: 1
+Number of pipelines per core: 0
+Estimated time for the pipeline: 0.0 minutes, 0.0 hours
+
+### Grid pipeline ############################
+pipelines: {'pipeline_1': {'pipeline': [Pipeline(steps=[('vec', MyVectorizer()), ('ss', StandardScaler()),
+                ('clf', SVC())])], 'file_preprocessing_path': ['./data/processed//NODE_2/params_0.npy']}, 'pipeline_2': {'pipeline': [Pipeline(steps=[('vec', MyVectorizer()), ('ss', StandardScaler()),
+                ('clf', AdaBoostClassifier())])], 'file_preprocessing_path': ['./data/processed//NODE_2/params_0.npy']}}
+
+### Results training ############################
+Training and testing done, time: 345.63965315818785 minutes, 5.760660885969798 hours
+

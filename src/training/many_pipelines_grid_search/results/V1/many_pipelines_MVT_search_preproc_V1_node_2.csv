@@ -1,0 +1,16 @@
+EPOCHS_EMPTY_FROM_MVT_TMIN,EPOCHS_LENGTH,EPOCHS_TMIN,FMAX,FMIN,pipeline,cov__estimator,score_A,score_B,score_C,score_X,duration_preprocessing,duration_train,memory,FILE_PATH,NUMBER_OF_SESSIONS,RANDOM_STATE,N_SPLIT,BINARY_CLASSIFICATION,VERSION,PATH_RESULTS,NAME_RESULTS,PATH_DATA_PROCESSED,FOLDER_RESULTS_ITERATIONS,NAME_RESULTS_ITERATIONS,LOG_FOLDER,SAVE_EACH_ITERATION,REMOVE_ITERATIONS,REMOVE_DATA_PROCESSED
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC())])",oas,0.8553145359027101,0.8398040446418782,0.7611696797461018,0.8565522955697209,492.482501745224,294.44576120376587,1885.15625,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': True,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('clf', AdaBoostClassifier())])",,0.6998334457715446,0.7114325045630985,0.6939970580172219,0.709978178934352,492.482501745224,440.69613456726074,1755.01171875,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('vec', MyVectorizer()), ('ss', StandardScaler()),
+                ('clf', LinearDiscriminantAnalysis())])",,0.4923826991324497,0.48315730768563775,0.49093018053168813,0.4931737355401762,492.482501745224,2418.6051783561707,1794.69140625,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True

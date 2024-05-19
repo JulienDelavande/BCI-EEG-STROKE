@@ -1,0 +1,18 @@
+ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/__editable__.ml_eeg_tools-0.1.0.pth'
+
+/scratch/students/j.delavande/PIE_2023/src/training/RIEMANN_MLP_MVT_INT_grid_search/hyperparams/V1/pipeline.py:44: SyntaxWarning: 'tuple' object is not callable; perhaps you missed a comma?
+  (64, 32, 16, 8, 4)
+Traceback (most recent call last):
+  File "script_grid_search.py", line 15, in <module>
+    pipelines_dict_lists = importlib.import_module(f'hyperparams.V{version}.pipeline').pipelines_dict_lists
+  File "/softs/Utils/anaconda3.7-2021.05/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/scratch/students/j.delavande/PIE_2023/src/training/RIEMANN_MLP_MVT_INT_grid_search/hyperparams/V1/pipeline.py", line 44, in <module>
+    (64, 32, 16, 8, 4)
+TypeError: 'tuple' object is not callable

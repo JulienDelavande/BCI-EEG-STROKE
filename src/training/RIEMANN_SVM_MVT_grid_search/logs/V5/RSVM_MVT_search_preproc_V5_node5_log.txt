@@ -1,0 +1,30 @@
+### LOG RSVM_MVT_search_preproc V5 ############################
+Name of the results: RSVM_MVT_search_preproc
+Version: 5
+Node index: 5
+Date: 2024-03-01 20:25:35
+
+### DEVICE ############################
+Number of nodes: 8
+Number of cores: 6
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 1
+Number of param per core: 0
+Estimated time for this node: 0.0 minutes, 0.0 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [-0.75], 'EPOCHS_LENGTH': [1.7], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [-6], 'FMIN': [9], 'FMAX': [30]}
+
+### Results preprocessing ############################
+Preprocessing done, time: 7.757279237111409 minutes, 0.12928798728519017 hours
+
+### Pipeline ############################
+Number of pipelines: 2754
+Number of pipelines per core: 459
+Estimated time for the pipeline: 5049.0 minutes, 84.15 hours
+
+### Grid pipeline ############################
+pipelines: {'pipeline_1': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC())])], 'clf__C': [0.01, 0.1, 0.2, 0.5, 0.7, 1, 2, 3, 4, 5, 6, 8, 10, 20, 50, 100, 1000], 'clf__gamma': [0.01, 0.1, 0.2, 0.5, 0.7, 1, 2, 3, 4, 5, 6, 8, 10, 20, 50, 100, 1000, 'scale'], 'clf__kernel': ['rbf', 'linear', 'poly', 'sigmoid'], 'cov__estimator': ['oas', 'lwf', 'scm'], 'ts__metric': ['riemann', 'logeuclid', 'euclid'], 'ss__with_mean': [True, False], 'file_preprocessing_path': ['./data/processed//NODE_5/params_0.npy']}}
+

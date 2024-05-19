@@ -1,0 +1,33 @@
+### LOG RSVM_MVT_INT_search_preproc V2 ############################
+Name of the results: RSVM_MVT_INT_search_preproc
+Version: 2
+Node index: 9
+Date: 2024-03-04 11:41:05
+
+### DEVICE ############################
+Number of nodes: 10
+Number of cores: 4
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 45
+Number of param per core: 11
+Estimated time for this node: 121.0 minutes, 2.0166666666666666 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [-0.5], 'EPOCHS_LENGTH': [2, 1.6, 1.4, 1, 0.5], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [-8], 'EPOCHS_INTENTION_FROM_MVT_TMIN': [-4, -1.2, -1, -0.5], 'FMIN': [1, 5, 9, 12, 15, 20, 30], 'FMAX': [20, 25, 30, 35, 40, 50, 60]}
+
+### Results preprocessing ############################
+Preprocessing done, time: 148.76631553967795 minutes, 2.479438592327966 hours
+
+### Pipeline ############################
+Number of pipelines: 45
+Number of pipelines per core: 11
+Estimated time for the pipeline: 121.0 minutes, 2.0166666666666666 hours
+
+### Grid pipeline ############################
+pipelines: {'pipeline_1': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC())])], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed//NODE_9/params_0.npy', './data/processed//NODE_9/params_1.npy', './data/processed//NODE_9/params_2.npy', './data/processed//NODE_9/params_3.npy', './data/processed//NODE_9/params_4.npy', './data/processed//NODE_9/params_5.npy', './data/processed//NODE_9/params_6.npy', './data/processed//NODE_9/params_7.npy', './data/processed//NODE_9/params_8.npy', './data/processed//NODE_9/params_9.npy', './data/processed//NODE_9/params_10.npy', './data/processed//NODE_9/params_11.npy', './data/processed//NODE_9/params_12.npy', './data/processed//NODE_9/params_13.npy', './data/processed//NODE_9/params_14.npy', './data/processed//NODE_9/params_15.npy', './data/processed//NODE_9/params_16.npy', './data/processed//NODE_9/params_17.npy', './data/processed//NODE_9/params_18.npy', './data/processed//NODE_9/params_19.npy', './data/processed//NODE_9/params_20.npy', './data/processed//NODE_9/params_21.npy', './data/processed//NODE_9/params_22.npy', './data/processed//NODE_9/params_23.npy', './data/processed//NODE_9/params_24.npy', './data/processed//NODE_9/params_25.npy', './data/processed//NODE_9/params_26.npy', './data/processed//NODE_9/params_27.npy', './data/processed//NODE_9/params_28.npy', './data/processed//NODE_9/params_29.npy', './data/processed//NODE_9/params_30.npy', './data/processed//NODE_9/params_31.npy', './data/processed//NODE_9/params_32.npy', './data/processed//NODE_9/params_33.npy', './data/processed//NODE_9/params_34.npy', './data/processed//NODE_9/params_35.npy', './data/processed//NODE_9/params_36.npy', './data/processed//NODE_9/params_37.npy', './data/processed//NODE_9/params_38.npy', './data/processed//NODE_9/params_39.npy', './data/processed//NODE_9/params_40.npy', './data/processed//NODE_9/params_41.npy', './data/processed//NODE_9/params_42.npy', './data/processed//NODE_9/params_43.npy', './data/processed//NODE_9/params_44.npy']}}
+
+### Results training ############################
+Training and testing done, time: 106.42711664835612 minutes, 1.773785277472602 hours
+

@@ -1,0 +1,34 @@
+EPOCHS_EMPTY_FROM_MVT_TMIN,EPOCHS_INTENTION_FROM_MVT_TMIN,EPOCHS_LENGTH,EPOCHS_TMIN,FMAX,FMIN,pipeline,score_A,score_B,score_C,score_X,duration_preprocessing,duration_train,memory,FILE_PATH,NUMBER_OF_SESSIONS,RANDOM_STATE,N_SPLIT,BINARY_CLASSIFICATION,VERSION,PATH_RESULTS,NAME_RESULTS,PATH_DATA_PROCESSED,FOLDER_RESULTS_ITERATIONS,NAME_RESULTS_ITERATIONS,LOG_FOLDER,SAVE_EACH_ITERATION,REMOVE_ITERATIONS,REMOVE_DATA_PROCESSED
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()), ('clf', SVC())])",0.5090672301980094,0.503148237448276,0.5036050120747386,0.5100143841834682,487.0992546081543,446.9805624485016,3310.4765625,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC())])",0.5024009992781212,0.5022418181251164,0.5010244031123982,0.5026629334977656,487.0992546081543,470.46118426322937,2951.30859375,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('bp', BandPowerExtractor()), ('ss', StandardScaler()),
+                ('clf', SVC())])",0.5,0.5,0.5,0.5,487.0992546081543,3494.9978222846985,2956.3046875,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('bp', BandPowerExtractor()), ('clf', SVC())])",0.5,0.5,0.5,0.5,487.0992546081543,3492.8527970314026,2954.35546875,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('wavelet', EEGWaveletFeatures()), ('clf', SVC())])",0.5,0.5,0.5,0.5,487.0992546081543,1291.551693201065,2985.92578125,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('wavelet', EEGWaveletFeatures()), ('ss', StandardScaler()),
+                ('clf', SVC())])",0.5006802843408733,0.5001664447403462,0.50058639938404,0.5000144077034285,487.0992546081543,1390.50741314888,3261.6953125,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', XdawnCovariances()), ('vec', MyVectorizer()),
+                ('ss', StandardScaler()), ('clf', SVC())])",0.5009532305438864,0.5013042288179902,0.49833523263861434,0.49906835304618324,487.0992546081543,343.5639736652374,2982.82421875,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': None,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('clf', SVC())])",0.49984177215189873,0.49983333333333335,0.5,0.4996790757381258,487.0992546081543,979.4259362220764,3262.1171875,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': None,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('ss', StandardScaler()), ('clf', SVC())])",0.4998332670147959,0.4997488903683977,0.49835526315789475,0.4996790757381258,487.0992546081543,975.8137445449829,2936.75390625,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True

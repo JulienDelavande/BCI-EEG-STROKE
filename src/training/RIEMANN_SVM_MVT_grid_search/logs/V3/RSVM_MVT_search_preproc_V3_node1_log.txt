@@ -1,0 +1,32 @@
+### LOG RSVM_MVT_search_preproc V3 ############################
+Name of the results: RSVM_MVT_search_preproc
+Version: 3
+Node index: 1
+
+### DEVICE ############################
+Number of nodes: 8
+Number of cores: 3
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 3
+Number of param per core: 1
+Estimated time for this node: 11.0 minutes, 0.18333333333333332 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [-0.5, -0.25, 0], 'EPOCHS_LENGTH': [1.5], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [-3, -4, -5, -6, -7, -8, -9, -10], 'FMIN': [1], 'FMAX': [40]}
+
+### Results preprocessing ############################
+Preprocessing done, time: 0.0 minutes, 0.0 hours
+
+### Pipeline ############################
+Number of pipelines: 1
+Number of pipelines per core: 0
+Estimated time for the pipeline: 0.0 minutes, 0.0 hours
+
+### Grid pipeline ############################
+pipelines: {'pipeline_1': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC())])], 'clf__C': [0.01, 0.1], 'clf__gamma': [0.1], 'clf__kernel': ['rbf'], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed/V3//NODE_1/params_0.npy', './data/processed/V3//NODE_1/params_1.npy', './data/processed/V3//NODE_1/params_2.npy']}}
+
+### Results training ############################
+Training and testing done, time: 0.5335365573565165 minutes, 0.008892275955941942 hours
+

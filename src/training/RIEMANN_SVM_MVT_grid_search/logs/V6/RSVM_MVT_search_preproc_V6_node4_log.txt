@@ -1,0 +1,35 @@
+### LOG RSVM_MVT_search_preproc V6 ############################
+Name of the results: RSVM_MVT_search_preproc
+Version: 6
+Node index: 4
+
+### DEVICE ############################
+Number of nodes: 8
+Number of cores: 6
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 1
+Number of param per core: 0
+Estimated time for this node: 0.0 minutes, 0.0 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [-0.75], 'EPOCHS_LENGTH': [1.7], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [-6], 'FMIN': [9], 'FMAX': [30]}
+
+### Results preprocessing ############################
+Preprocessing done, time: 6.9875048438707985 minutes, 0.11645841406451331 hours
+
+### Pipeline ############################
+Number of pipelines: 1
+Number of pipelines per core: 0
+Estimated time for the pipeline: 0.0 minutes, 0.0 hours
+
+### Grid pipeline ############################
+pipelines: {'pipeline_1': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC())])], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed//NODE_4/params_0.npy']}, 'pipeline_2': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', LogisticRegression())])], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed//NODE_4/params_0.npy']}, 'pipeline_3': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', RandomForestClassifier())])], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed//NODE_4/params_0.npy']}, 'pipeline_4': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', AdaBoostClassifier())])], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed//NODE_4/params_0.npy']}}
+
+### Results training ############################
+Training and testing done, time: 6.689959144592285 minutes, 0.11149931907653808 hours
+

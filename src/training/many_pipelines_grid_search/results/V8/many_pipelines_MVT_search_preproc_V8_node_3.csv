@@ -1,0 +1,37 @@
+EPOCHS_EMPTY_FROM_MVT_TMIN,EPOCHS_INTENTION_FROM_MVT_TMIN,EPOCHS_LENGTH,EPOCHS_TMIN,FMAX,FMIN,pipeline,score_A,score_B,score_C,score_X,duration_preprocessing,duration_train,memory,FILE_PATH,NUMBER_OF_SESSIONS,RANDOM_STATE,N_SPLIT,BINARY_CLASSIFICATION,VERSION,PATH_RESULTS,NAME_RESULTS,PATH_DATA_PROCESSED,FOLDER_RESULTS_ITERATIONS,NAME_RESULTS_ITERATIONS,LOG_FOLDER,SAVE_EACH_ITERATION,REMOVE_ITERATIONS,REMOVE_DATA_PROCESSED
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf', RandomForestClassifier())])",0.5003064104164114,0.501735210823578,0.5037944068294864,0.501991235972063,502.44458293914795,548.6815328598022,3311.390625,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', RandomForestClassifier())])",0.5008983818334343,0.5005759352388466,0.5010235066127452,0.5017682712431539,502.44458293914795,561.7521300315857,2948.02734375,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('bp', BandPowerExtractor()), ('ss', StandardScaler()),
+                ('clf', RandomForestClassifier())])",0.5184544892939801,0.520176317828142,0.5115286857926146,0.5189131532654363,502.44458293914795,3505.7045776844025,2947.84765625,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('bp', BandPowerExtractor()),
+                ('clf', RandomForestClassifier())])",0.5,0.5,0.5,0.5,502.44458293914795,3507.250920534134,2923.9453125,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('wavelet', EEGWaveletFeatures()),
+                ('clf', RandomForestClassifier())])",0.526419758492717,0.525939705579608,0.5142382855993122,0.5296031631405393,502.44458293914795,1470.336029291153,3011.38671875,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('wavelet', EEGWaveletFeatures()), ('ss', StandardScaler()),
+                ('clf', RandomForestClassifier())])",0.5150387063772199,0.5175685366988123,0.5118950638277288,0.5143704076551203,502.44458293914795,1449.0192656517029,3263.79296875,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', XdawnCovariances()), ('vec', MyVectorizer()),
+                ('ss', StandardScaler()), ('clf', RandomForestClassifier())])",0.5008627742253443,0.5038623033218195,0.4977446866326568,0.49829582740459344,502.44458293914795,386.28072905540466,3011.5625,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': None,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('clf', RandomForestClassifier())])",0.5192331462021043,0.5110938326106211,0.500663920325707,0.5212003335127664,502.44458293914795,972.0564548969269,3263.734375,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': None,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('ss', StandardScaler()), ('clf', RandomForestClassifier())])",0.5182924447153348,0.5061251769401525,0.5024969330201259,0.5147399890349214,502.44458293914795,979.8010075092316,2959.16015625,./../../../data/raw/Data_npy/,-1,42,4,True,8,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True

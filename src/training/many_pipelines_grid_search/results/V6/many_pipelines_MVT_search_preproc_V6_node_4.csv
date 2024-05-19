@@ -1,0 +1,22 @@
+EPOCHS_EMPTY_FROM_MVT_TMIN,EPOCHS_LENGTH,EPOCHS_TMIN,FMAX,FMIN,pipeline,score_A,score_B,score_C,score_X,duration_preprocessing,duration_train,memory,FILE_PATH,NUMBER_OF_SESSIONS,RANDOM_STATE,N_SPLIT,BINARY_CLASSIFICATION,VERSION,PATH_RESULTS,NAME_RESULTS,PATH_DATA_PROCESSED,FOLDER_RESULTS_ITERATIONS,NAME_RESULTS_ITERATIONS,LOG_FOLDER,SAVE_EACH_ITERATION,REMOVE_ITERATIONS,REMOVE_DATA_PROCESSED
+-4,3,-1,40,1,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf', AdaBoostClassifier())])",0.7046747460484046,0.6744525408409716,0.6356524842190183,0.7069126845691505,480.14229345321655,483.9780192375183,3139.51171875,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-4,3,-1,40,1,"Pipeline(steps=[('bp', BandPowerExtractor()), ('ss', StandardScaler()),
+                ('clf', LogisticRegression())])",0.5425425198047953,0.5459456658112912,0.5431207462920392,0.5281295402777416,480.14229345321655,3644.5740003585815,2958.328125,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-4,3,-1,40,1,"Pipeline(steps=[('bp', BandPowerExtractor()), ('vec', FlattenEEGData()),
+                ('clf', MLPClassifier())])",0.5,0.5,0.5,0.5,480.14229345321655,3648.486820936203,2960.34375,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-4,3,-1,40,1,"Pipeline(steps=[('wavelet', EEGWaveletFeatures()),
+                ('clf', AdaBoostClassifier())])",0.595589919663565,0.5983884980946026,0.5486708366265651,0.5806559758082137,480.14229345321655,1313.188913822174,2937.515625,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-4,3,-1,40,1,"Pipeline(steps=[('cov', XdawnCovariances()), ('vec', MyVectorizer()),
+                ('ss', StandardScaler()), ('clf', MLPClassifier())])",0.5397682102570732,0.5415134686704213,0.5486416215649446,0.5134420676722822,480.14229345321655,670.6978089809418,3118.953125,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-4,3,-1,40,1,"Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': None,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('ss', StandardScaler()), ('clf', AdaBoostClassifier())])",0.6326834503485312,0.62136822812673,0.6011256710628524,0.6378058934182937,480.14229345321655,1094.3355753421783,3159.6953125,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True

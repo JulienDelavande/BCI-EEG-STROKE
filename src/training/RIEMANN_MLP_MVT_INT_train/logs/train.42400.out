@@ -1,0 +1,124 @@
+Requirement already satisfied: pip in ./venv_training/lib/python3.8/site-packages (24.0)
+Obtaining file:///scratch/students/j.delavande/PIE_2023 (from -r requirements_training.txt (line 16))
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: certifi==2024.2.2 in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 1)) (2024.2.2)
+Requirement already satisfied: charset-normalizer==3.3.2 in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 2)) (3.3.2)
+Requirement already satisfied: colorama==0.4.6 in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 3)) (0.4.6)
+Requirement already satisfied: contourpy in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 4)) (1.1.1)
+Requirement already satisfied: cycler in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 5)) (0.12.1)
+Requirement already satisfied: decorator in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 6)) (5.1.1)
+Requirement already satisfied: fonttools in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 7)) (4.49.0)
+Requirement already satisfied: idna in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 8)) (3.6)
+Requirement already satisfied: importlib-resources in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 9)) (6.1.1)
+Requirement already satisfied: Jinja2 in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 10)) (3.1.3)
+Requirement already satisfied: joblib in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 11)) (1.3.2)
+Requirement already satisfied: kiwisolver in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 12)) (1.4.5)
+Requirement already satisfied: lazy-loader in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 13)) (0.3)
+Requirement already satisfied: MarkupSafe in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 14)) (2.1.5)
+Requirement already satisfied: matplotlib in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 15)) (3.7.5)
+Requirement already satisfied: mne in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 17)) (1.6.1)
+Requirement already satisfied: numpy in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 18)) (1.24.4)
+Requirement already satisfied: packaging in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 19)) (23.2)
+Requirement already satisfied: pandas in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 20)) (2.0.3)
+Requirement already satisfied: pillow in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 21)) (10.2.0)
+Requirement already satisfied: platformdirs in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 22)) (4.2.0)
+Requirement already satisfied: pooch in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 23)) (1.8.1)
+Requirement already satisfied: pyparsing in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 24)) (3.1.1)
+Requirement already satisfied: pyriemann in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 25)) (0.5)
+Requirement already satisfied: python-dateutil in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 26)) (2.8.2)
+Requirement already satisfied: pytz in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 27)) (2024.1)
+Requirement already satisfied: requests in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 28)) (2.31.0)
+Requirement already satisfied: scikit-learn in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 29)) (1.3.2)
+Requirement already satisfied: scipy in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 30)) (1.10.1)
+Requirement already satisfied: six in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 31)) (1.16.0)
+Requirement already satisfied: threadpoolctl in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 32)) (3.3.0)
+Requirement already satisfied: tqdm in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 33)) (4.66.2)
+Requirement already satisfied: tzdata in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 34)) (2024.1)
+Requirement already satisfied: urllib3 in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 35)) (2.2.1)
+Requirement already satisfied: zipp in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 36)) (3.17.0)
+Requirement already satisfied: psutil in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 37)) (5.9.8)
+Requirement already satisfied: PyWavelets in ./venv_training/lib/python3.8/site-packages (from -r requirements_training.txt (line 38)) (1.4.1)
+Collecting torch (from -r requirements_training.txt (line 39))
+  Using cached torch-2.2.1-cp38-cp38-manylinux1_x86_64.whl.metadata (25 kB)
+Collecting filelock (from torch->-r requirements_training.txt (line 39))
+  Using cached filelock-3.13.1-py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: typing-extensions>=4.8.0 in ./venv_training/lib/python3.8/site-packages (from torch->-r requirements_training.txt (line 39)) (4.10.0)
+Collecting sympy (from torch->-r requirements_training.txt (line 39))
+  Using cached sympy-1.12-py3-none-any.whl.metadata (12 kB)
+Collecting networkx (from torch->-r requirements_training.txt (line 39))
+  Using cached networkx-3.1-py3-none-any.whl.metadata (5.3 kB)
+Collecting fsspec (from torch->-r requirements_training.txt (line 39))
+  Using cached fsspec-2024.2.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting nvidia-cuda-nvrtc-cu12==12.1.105 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cuda-runtime-cu12==12.1.105 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cuda-cupti-cu12==12.1.105 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cudnn-cu12==8.9.2.26 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_cudnn_cu12-8.9.2.26-py3-none-manylinux1_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cublas-cu12==12.1.3.1 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cufft-cu12==11.0.2.54 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-curand-cu12==10.3.2.106 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cusolver-cu12==11.4.5.107 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cusparse-cu12==12.1.0.106 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-nccl-cu12==2.19.3 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_nccl_cu12-2.19.3-py3-none-manylinux1_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-nvtx-cu12==12.1.105 (from torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl.metadata (1.7 kB)
+Collecting triton==2.2.0 (from torch->-r requirements_training.txt (line 39))
+  Using cached triton-2.2.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.4 kB)
+Collecting nvidia-nvjitlink-cu12 (from nvidia-cusolver-cu12==11.4.5.107->torch->-r requirements_training.txt (line 39))
+  Using cached nvidia_nvjitlink_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Requirement already satisfied: mpmath>=0.19 in ./venv_training/lib/python3.8/site-packages (from sympy->torch->-r requirements_training.txt (line 39)) (1.3.0)
+Using cached torch-2.2.1-cp38-cp38-manylinux1_x86_64.whl (755.5 MB)
+Using cached nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl (410.6 MB)
+Using cached nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (14.1 MB)
+Using cached nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (23.7 MB)
+Using cached nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (823 kB)
+Using cached nvidia_cudnn_cu12-8.9.2.26-py3-none-manylinux1_x86_64.whl (731.7 MB)
+Using cached nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl (121.6 MB)
+Using cached nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl (56.5 MB)
+Using cached nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl (124.2 MB)
+Using cached nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl (196.0 MB)
+Using cached nvidia_nccl_cu12-2.19.3-py3-none-manylinux1_x86_64.whl (166.0 MB)
+Using cached nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl (99 kB)
+Using cached triton-2.2.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (167.9 MB)
+Using cached filelock-3.13.1-py3-none-any.whl (11 kB)
+Using cached fsspec-2024.2.0-py3-none-any.whl (170 kB)
+Using cached networkx-3.1-py3-none-any.whl (2.1 MB)
+Using cached sympy-1.12-py3-none-any.whl (5.7 MB)
+Using cached nvidia_nvjitlink_cu12-12.4.99-py3-none-manylinux2014_x86_64.whl (21.1 MB)
+Building wheels for collected packages: ml_eeg_tools
+  Building editable for ml_eeg_tools (pyproject.toml): started
+  Building editable for ml_eeg_tools (pyproject.toml): finished with status 'done'
+  Created wheel for ml_eeg_tools: filename=ml_eeg_tools-0.1.0-0.editable-py3-none-any.whl size=1380 sha256=10f10de0690d576b77cb0e4e788f07a63bb04355aec67178ee43b48aa5f9aeb1
+  Stored in directory: /tmp/pip-ephem-wheel-cache-jjp81b2s/wheels/46/81/71/afd4c4270e0372d88678696f6db7532b895b3095975883df2a
+Successfully built ml_eeg_tools
+Installing collected packages: sympy, nvidia-nvtx-cu12, nvidia-nvjitlink-cu12, nvidia-nccl-cu12, nvidia-curand-cu12, nvidia-cufft-cu12, nvidia-cuda-runtime-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-cupti-cu12, nvidia-cublas-cu12, networkx, fsspec, filelock, triton, nvidia-cusparse-cu12, nvidia-cudnn-cu12, nvidia-cusolver-cu12, torch, ml_eeg_tools
+  Attempting uninstall: ml_eeg_tools
+    Found existing installation: ml_eeg_tools 0.1.0
+    Uninstalling ml_eeg_tools-0.1.0:
+      Successfully uninstalled ml_eeg_tools-0.1.0
+Successfully installed filelock-3.13.1 fsspec-2024.2.0 ml_eeg_tools-0.1.0 networkx-3.1 nvidia-cublas-cu12-12.1.3.1 nvidia-cuda-cupti-cu12-12.1.105 nvidia-cuda-nvrtc-cu12-12.1.105 nvidia-cuda-runtime-cu12-12.1.105 nvidia-cudnn-cu12-8.9.2.26 nvidia-cufft-cu12-11.0.2.54 nvidia-curand-cu12-10.3.2.106 nvidia-cusolver-cu12-11.4.5.107 nvidia-cusparse-cu12-12.1.0.106 nvidia-nccl-cu12-2.19.3 nvidia-nvjitlink-cu12-12.4.99 nvidia-nvtx-cu12-12.1.105 sympy-1.12 torch-2.2.1 triton-2.2.0
+Data loaded: 40 patients, 40 labels
+Data saved: ./results/data_patients_labels.npy
+Score A: 0.584746703581446
+Score B: 0.586302827304896
+Score C: 0.5464907166195117
+Score X: 0.5924157044007798
+Saved: {'EPOCHS_TMIN': 0, 'EPOCHS_LENGTH': 2, 'EPOCHS_EMPTY_FROM_MVT_TMINS': -6, 'EPOCHS_INTENTION_FROM_MVT_TMIN': -2, 'FMIN': 9, 'FMAX': 30, 'CLASSIFIER': 'SVC', 'RANDOM_STATE': 42, 'N_SPLIT': 4, 'NUMBER_OF_SESSIONS': 85, 'score_A': 0.584746703581446, 'score_B': 0.586302827304896, 'score_C': 0.5464907166195117, 'score_X': 0.5924157044007798, 'accuracy_train': 0.9874973054537616, 'duration': 788.4222280979156, 'memory': 3697.69921875} to ./results/model_MLP_INT_MVT_scores.csv and ./models/RIEMANN_MLP_INT_MVT_v1_85sessions.joblib

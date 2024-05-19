@@ -1,0 +1,23 @@
+EPOCHS_EMPTY_FROM_MVT_TMIN,EPOCHS_LENGTH,EPOCHS_TMIN,FMAX,FMIN,pipeline,score_A,score_B,score_C,score_X,duration_preprocessing,duration_train,memory,FILE_PATH,NUMBER_OF_SESSIONS,RANDOM_STATE,N_SPLIT,BINARY_CLASSIFICATION,VERSION,PATH_RESULTS,NAME_RESULTS,PATH_DATA_PROCESSED,FOLDER_RESULTS_ITERATIONS,NAME_RESULTS_ITERATIONS,LOG_FOLDER,SAVE_EACH_ITERATION,REMOVE_ITERATIONS,REMOVE_DATA_PROCESSED
+-4,3,-1,40,1,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf', RandomForestClassifier())])",0.7558461133766802,0.72990293422065,0.6273263545473572,0.7468422596587196,505.17600870132446,353.1739594936371,3222.7734375,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-4,3,-1,40,1,"Pipeline(steps=[('bp', BandPowerExtractor()), ('ss', StandardScaler()),
+                ('clf', SVC())])",0.5691235540967976,0.5662250036928267,0.5716189684381838,0.5667627157865759,505.17600870132446,3691.708266019821,2958.2109375,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-4,3,-1,40,1,"Pipeline(steps=[('bp', BandPowerExtractor()),
+                ('clf', LinearDiscriminantAnalysis())])",0.5231049671226853,0.5374441664595819,0.5283165720663425,0.5064315441919474,505.17600870132446,3689.436369895935,2958.25390625,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-4,3,-1,40,1,"Pipeline(steps=[('wavelet', EEGWaveletFeatures()),
+                ('clf', RandomForestClassifier())])",0.7259776317421698,0.6883951092822838,0.6141343296209978,0.7184189602929774,505.17600870132446,1007.3803572654724,2946.47265625,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-4,3,-1,40,1,"Pipeline(steps=[('cov', XdawnCovariances()), ('vec', MyVectorizer()),
+                ('ss', StandardScaler()),
+                ('clf', LinearDiscriminantAnalysis())])",0.525225826055475,0.5364582409976404,0.5496687932123546,0.5268325641644502,505.17600870132446,251.76406812667847,3173.75,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True
+-4,3,-1,40,1,"Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': None,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('ss', StandardScaler()), ('clf', RandomForestClassifier())])",0.684008899721134,0.6475656394954616,0.573475093821258,0.6815297120763005,505.17600870132446,921.6230173110962,3203.15625,./../../../data/raw/Data_npy/,-1,42,4,True,6,./results/,many_pipelines_MVT_search_preproc,./data/processed/,/iterations/,many_pipelines_MVT_search_preproc_iter,./logs/,True,True,True

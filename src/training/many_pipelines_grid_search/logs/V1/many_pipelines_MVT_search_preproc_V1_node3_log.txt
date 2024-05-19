@@ -1,0 +1,18 @@
+### LOG many_pipelines_MVT_search_preproc V1 ############################
+Name of the results: many_pipelines_MVT_search_preproc
+Version: 1
+Node index: 3
+Date: 2024-03-07 11:42:01
+
+### DEVICE ############################
+Number of nodes: 6
+Number of cores: 4
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 1
+Number of param per core: 0
+Estimated time for this node: 0.0 minutes, 0.0 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [-0.75], 'EPOCHS_LENGTH': [1.7], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [-6], 'FMIN': [9], 'FMAX': [30]}
+

@@ -1,0 +1,99 @@
+### LOG many_pipelines_MVT_search_preproc V1 ############################
+Name of the results: many_pipelines_MVT_search_preproc
+Version: 1
+Node index: 7
+Date: 2024-03-04 14:09:41
+
+### DEVICE ############################
+Number of nodes: 8
+Number of cores: 6
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 1
+Number of param per core: 0
+Estimated time for this node: 0.0 minutes, 0.0 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [-0.75], 'EPOCHS_LENGTH': [1.7], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [-6], 'FMIN': [9], 'FMAX': [30]}
+
+### Results preprocessing ############################
+Preprocessing done, time: 11.351876548926036 minutes, 0.1891979424821006 hours
+
+### Pipeline ############################
+Number of pipelines: 2
+Number of pipelines per core: 0
+Estimated time for the pipeline: 0.0 minutes, 0.0 hours
+
+### Grid pipeline ############################
+pipelines: {'pipeline_1': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', RandomForestClassifier())])], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_2': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC())])], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_3': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', LinearDiscriminantAnalysis())])], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_4': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', LinearRegression())])], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_5': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', AdaBoostClassifier())])], 'cov__estimator': ['oas'], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_6': {'pipeline': [Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': True,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('clf', RandomForestClassifier())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_7': {'pipeline': [Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': True,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('clf', SVC())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_8': {'pipeline': [Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': True,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('clf', LinearDiscriminantAnalysis())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_9': {'pipeline': [Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': True,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('clf', LinearRegression())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_10': {'pipeline': [Pipeline(steps=[('csp',
+                 CSP({'component_order': 'mutual_info',
+ 'cov_est': 'concat',
+ 'cov_method_params': None,
+ 'log': True,
+ 'n_components': 4,
+ 'norm_trace': False,
+ 'rank': None,
+ 'reg': None,
+ 'transform_into': 'average_power'})),
+                ('clf', AdaBoostClassifier())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_11': {'pipeline': [Pipeline(steps=[('xdawn', XdawnCovariances()), ('vec', MyVectorizer()),
+                ('ss', StandardScaler()), ('clf', RandomForestClassifier())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_12': {'pipeline': [Pipeline(steps=[('xdawn', XdawnCovariances()), ('vec', MyVectorizer()),
+                ('ss', StandardScaler()), ('clf', SVC())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_13': {'pipeline': [Pipeline(steps=[('xdawn', XdawnCovariances()), ('vec', MyVectorizer()),
+                ('ss', StandardScaler()),
+                ('clf', LinearDiscriminantAnalysis())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_14': {'pipeline': [Pipeline(steps=[('xdawn', XdawnCovariances()), ('vec', MyVectorizer()),
+                ('ss', StandardScaler()), ('clf', LinearRegression())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_15': {'pipeline': [Pipeline(steps=[('xdawn', XdawnCovariances()), ('vec', MyVectorizer()),
+                ('ss', StandardScaler()), ('clf', AdaBoostClassifier())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_16': {'pipeline': [Pipeline(steps=[('vec', MyVectorizer()), ('ss', StandardScaler()),
+                ('clf', RandomForestClassifier())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_17': {'pipeline': [Pipeline(steps=[('vec', MyVectorizer()), ('ss', StandardScaler()),
+                ('clf', SVC())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_18': {'pipeline': [Pipeline(steps=[('vec', MyVectorizer()), ('ss', StandardScaler()),
+                ('clf', LinearDiscriminantAnalysis())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_19': {'pipeline': [Pipeline(steps=[('vec', MyVectorizer()), ('ss', StandardScaler()),
+                ('clf', LinearRegression())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}, 'pipeline_20': {'pipeline': [Pipeline(steps=[('vec', MyVectorizer()), ('ss', StandardScaler()),
+                ('clf', AdaBoostClassifier())])], 'file_preprocessing_path': ['./data/processed//NODE_7/params_0.npy']}}
+
+### Results training ############################
+Training and testing done, time: 7.552230536937714 minutes, 0.1258705089489619 hours
+

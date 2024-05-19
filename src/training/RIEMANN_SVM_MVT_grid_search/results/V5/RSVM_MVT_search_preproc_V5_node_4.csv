@@ -1,0 +1,185 @@
+EPOCHS_EMPTY_FROM_MVT_TMIN,EPOCHS_LENGTH,EPOCHS_TMIN,FMAX,FMIN,pipeline,clf__C,clf__gamma,clf__kernel,cov__estimator,score_A,score_B,score_C,score_X,duration_preprocessing,duration_train,memory,FILE_PATH,NUMBER_OF_SESSIONS,RANDOM_STATE,N_SPLIT,BINARY_CLASSIFICATION,VERSION,PATH_RESULTS,NAME_RESULTS,PATH_DATA_PROCESSED,FOLDER_RESULTS_ITERATIONS,NAME_RESULTS_ITERATIONS,LOG_FOLDER,SAVE_EACH_ITERATION,REMOVE_ITERATIONS,REMOVE_DATA_PROCESSED
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, gamma=0.01, kernel='linear'))])",0.01,0.01,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.73896098136902,326.19921875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, gamma=0.01, kernel='sigmoid'))])",0.01,0.01,sigmoid,scm,0.5,0.7435897435897436,0.7182017543859649,0.5,57.57397699356079,20.18224000930786,322.84765625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, gamma=0.1, kernel='poly'))])",0.01,0.1,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.056864976882935,325.7578125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, gamma=1, kernel='linear'))])",0.01,1,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.623799562454224,326.16015625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, gamma=1, kernel='sigmoid'))])",0.01,1,sigmoid,scm,0.5374371264794506,0.733974358974359,0.694078947368421,0.5692268265722278,57.57397699356079,20.17351198196411,324.19921875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, gamma=10, kernel='poly'))])",0.01,10,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,24.653052806854248,659.234375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, gamma=100, kernel='linear'))])",0.01,100,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.78235673904419,328.66796875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, gamma=100, kernel='sigmoid'))])",0.01,100,sigmoid,scm,0.5374371264794506,0.7387820512820513,0.6885964912280702,0.563433143225222,57.57397699356079,19.979239225387573,328.51171875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, gamma=1000, kernel='poly'))])",0.01,1000,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,24.688004970550537,659.515625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, kernel='linear'))])",0.01,scale,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.69832706451416,328.3125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.01, kernel='sigmoid'))])",0.01,scale,sigmoid,scm,0.5,0.75,0.706140350877193,0.5,57.57397699356079,20.188082695007324,333.7109375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.1, gamma=0.01, kernel='poly'))])",0.1,0.01,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.01610016822815,331.5546875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.1, gamma=0.1, kernel='linear'))])",0.1,0.1,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.37307119369507,326.0625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.1, gamma=0.1, kernel='sigmoid'))])",0.1,0.1,sigmoid,scm,0.6294686528125436,0.6842948717948718,0.6837406015037594,0.6489672234183445,57.57397699356079,20.13377833366394,333.00390625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.1, gamma=1, kernel='poly'))])",0.1,1,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.25020933151245,344.93359375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.1, gamma=10, kernel='linear'))])",0.1,10,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.663098335266113,346.90625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.1, gamma=10, kernel='sigmoid'))])",0.1,10,sigmoid,scm,0.6259441637249268,0.6458333333333333,0.6679197994987469,0.6707884257150099,57.57397699356079,19.485366821289062,659.51953125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.1, gamma=100, kernel='poly'))])",0.1,100,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,24.977646589279175,331.56640625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.1, gamma=1000, kernel='linear'))])",0.1,1000,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.38179659843445,328.42578125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=0.1, gamma=1000, kernel='sigmoid'))])",0.1,1000,sigmoid,scm,0.6202968340101651,0.6682692307692308,0.6580513784461152,0.6697518398321433,57.57397699356079,20.151431798934937,332.99609375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC(C=0.1, kernel='poly'))])",0.1,scale,poly,lwf,0.5,0.6698717948717948,0.5,0.5,57.57397699356079,24.52800726890564,659.51953125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1, gamma=0.01, kernel='linear'))])",1.0,0.01,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.677345991134644,326.37109375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1, gamma=0.01, kernel='sigmoid'))])",1.0,0.01,sigmoid,scm,0.7862047991157588,0.7756410256410257,0.6909461152882206,0.7618637781174856,57.57397699356079,19.999240159988403,328.36328125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1, gamma=0.1, kernel='poly'))])",1.0,0.1,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,24.953644037246704,331.56640625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1, gamma=1, kernel='linear'))])",1.0,1,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.668132543563843,329.33203125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1, gamma=1, kernel='sigmoid'))])",1.0,1,sigmoid,scm,0.557065018461925,0.6282051282051282,0.6433270676691729,0.6043448612965309,57.57397699356079,19.896596908569336,327.10546875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1, gamma=10, kernel='poly'))])",1.0,10,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.237865209579468,328.37109375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1, gamma=100, kernel='linear'))])",1.0,100,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,22.99414348602295,661.7890625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1, gamma=100, kernel='sigmoid'))])",1.0,100,sigmoid,scm,0.5876777681835832,0.6506410256410255,0.6229636591478697,0.6104673122237025,57.57397699356079,20.062926054000854,330.81640625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1, gamma=1000, kernel='poly'))])",1.0,1000,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.018530130386353,331.5703125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC(C=1, kernel='linear'))])",1.0,scale,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.41350555419922,327.1171875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC(C=1, kernel='sigmoid'))])",1.0,scale,sigmoid,scm,0.8829515735905569,0.875,0.5888157894736842,0.8755935542758885,57.57397699356079,20.057190418243408,332.80859375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=10, gamma=0.01, kernel='poly'))])",10.0,0.01,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.327407360076904,344.96484375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=10, gamma=0.1, kernel='linear'))])",10.0,0.1,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,22.983538150787354,661.7890625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=10, gamma=0.1, kernel='sigmoid'))])",10.0,0.1,sigmoid,scm,0.5843565691434194,0.655448717948718,0.6362781954887218,0.5670922929165794,57.57397699356079,20.07406711578369,328.38671875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=10, gamma=1, kernel='poly'))])",10.0,1,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.024156093597412,331.57421875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=10, gamma=10, kernel='linear'))])",10.0,10,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.644079446792603,329.3671875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=10, gamma=10, kernel='sigmoid'))])",10.0,10,sigmoid,scm,0.587469895051746,0.6233974358974359,0.6256265664160401,0.5930262082263313,57.57397699356079,19.79447603225708,328.1171875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=10, gamma=100, kernel='poly'))])",10.0,100,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.217296838760376,332.8203125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=10, gamma=1000, kernel='linear'))])",10.0,1000,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.115238904953003,661.7890625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=10, gamma=1000, kernel='sigmoid'))])",10.0,1000,sigmoid,scm,0.5640588937142594,0.6442307692307692,0.6109022556390977,0.5866004670814151,57.57397699356079,20.054559469223022,344.96484375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC(C=10, kernel='poly'))])",10.0,scale,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.056545972824097,331.57421875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, gamma=0.01, kernel='linear'))])",100.0,0.01,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.40288472175598,328.12109375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, gamma=0.01, kernel='sigmoid'))])",100.0,0.01,sigmoid,scm,0.7517775139013871,0.7323717948717949,0.6342418546365914,0.7305711179801969,57.57397699356079,19.939799547195435,329.37109375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, gamma=0.1, kernel='poly'))])",100.0,0.1,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.32115936279297,344.96484375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, gamma=1, kernel='linear'))])",100.0,1,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.01359724998474,661.7890625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, gamma=1, kernel='sigmoid'))])",100.0,1,sigmoid,scm,0.5558293830972275,0.6298076923076923,0.625,0.58740675797722,57.57397699356079,20.062993049621582,328.39453125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, gamma=10, kernel='poly'))])",100.0,10,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.234043836593628,334.95703125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, gamma=100, kernel='linear'))])",100.0,100,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.44388222694397,328.125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, gamma=100, kernel='sigmoid'))])",100.0,100,sigmoid,scm,0.5560799992911724,0.6490384615384616,0.6182644110275689,0.5891981534427814,57.57397699356079,19.855543613433838,326.01171875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, gamma=1000, kernel='poly'))])",100.0,1000,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.23054075241089,332.8203125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, kernel='linear'))])",100.0,scale,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.138746976852417,661.7890625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=100, kernel='sigmoid'))])",100.0,scale,sigmoid,scm,0.8630823911383726,0.8381410256410257,0.6027568922305764,0.8300963982772142,57.57397699356079,20.163549661636353,326.40625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1000, gamma=0.01, kernel='poly'))])",1000.0,0.01,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,24.922114610671997,332.6015625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1000, gamma=0.1, kernel='linear'))])",1000.0,0.1,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.61628556251526,329.37890625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1000, gamma=0.1, kernel='sigmoid'))])",1000.0,0.1,sigmoid,scm,0.5859005172046846,0.6490384615384616,0.6176378446115288,0.5659079583328943,57.57397699356079,19.836966514587402,328.125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1000, gamma=1, kernel='poly'))])",1000.0,1,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,25.252633333206177,344.97265625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1000, gamma=10, kernel='linear'))])",1000.0,10,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,22.996548652648926,661.7890625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1000, gamma=10, kernel='sigmoid'))])",1000.0,10,sigmoid,scm,0.5787300050412729,0.6266025641025641,0.6148182957393483,0.5917037882297456,57.57397699356079,19.995060205459595,328.39453125,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1000, gamma=100, kernel='poly'))])",1000.0,100,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,24.737658500671387,333.7109375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='oas')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1000, gamma=1000, kernel='linear'))])",1000.0,1000,linear,oas,0.8712710044344012,0.8525641025641025,0.5964912280701755,0.8720997254070059,57.57397699356079,23.214946508407593,329.37109375,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('ss', StandardScaler()),
+                ('clf', SVC(C=1000, gamma=1000, kernel='sigmoid'))])",1000.0,1000,sigmoid,scm,0.5664627398681056,0.6442307692307692,0.6273496240601504,0.5866004670814151,57.57397699356079,19.857136964797974,329.390625,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True
+-6,1.7,-0.75,30,9,"Pipeline(steps=[('cov', Covariances(estimator='lwf')), ('ts', TangentSpace()),
+                ('ss', StandardScaler()), ('clf', SVC(C=1000, kernel='poly'))])",1000.0,scale,poly,lwf,0.7911296629605358,0.8189102564102564,0.5526315789473684,0.7868742579314769,57.57397699356079,24.407368421554565,332.82421875,./../../../data/raw/Data_npy/,10,42,4,True,5,./results/,RSVM_MVT_search_preproc,./data/processed/,/iterations/,RSVM_MVT_search_preproc_iter,./logs/,True,True,True

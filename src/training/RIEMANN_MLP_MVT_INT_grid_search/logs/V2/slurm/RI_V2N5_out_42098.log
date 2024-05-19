@@ -1,0 +1,4 @@
+Requirement already satisfied: pip in ./venv_training/lib/python3.8/site-packages (24.0)
+Obtaining file:///scratch/students/j.delavande/PIE_2023 (from -r requirements_training.txt (line 16))
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'error'

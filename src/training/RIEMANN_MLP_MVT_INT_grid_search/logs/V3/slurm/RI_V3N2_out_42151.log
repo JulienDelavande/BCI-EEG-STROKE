@@ -1,0 +1,309 @@
+Requirement already satisfied: pip in ./venv_training/lib/python3.8/site-packages (24.0)
+Obtaining file:///scratch/students/j.delavande/PIE_2023 (from -r requirements_training.txt (line 16))
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'error'
+grid_preprocessing before exclude: <sklearn.model_selection._search.ParameterGrid object at 0x2b21a5ad2e80>
+grid_preprocessing after exclude: <sklearn.model_selection._search.ParameterGrid object at 0x2b21a5ad2e80>
+grid_preprocessing after rules: <sklearn.model_selection._search.ParameterGrid object at 0x2b21a5ad2e80>
+{'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf', MLPClassifier())])], 'clf__hidden_layer_sizes': [(64, 32, 16, 8, 4)], 'clf__activation': ['relu'], 'clf__solver': ['adam'], 'clf__alpha': [1e-05, 0.0001, 0.001, 0.01, 0.1], 'clf__learning_rate': ['constant', 'invscaling', 'adaptive'], 'clf__learning_rate_init': [0.0001, 0.001, 0.01, 0.1], 'clf__max_iter': [100, 200, 300, 400, 500], 'file_preprocessing_path': ['./data/processed//NODE_2/params_0.npy']}
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 1e-05, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 300, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=1e-05,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               max_iter=300))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 1e-05, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 300, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=1e-05,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling',
+                               learning_rate_init=0.1, max_iter=300))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.0001, 'clf__max_iter': 200, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.0001))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 100, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling', max_iter=100))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 500, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive', max_iter=500))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 300, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.001,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               max_iter=300))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.01, 'clf__max_iter': 200, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.001,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling',
+                               learning_rate_init=0.01))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.01, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.0001, 'clf__max_iter': 200, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.01,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.0001))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.01, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 100, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.01,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling', max_iter=100))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.01, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 500, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.01,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive', max_iter=500))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.1, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.01, 'clf__max_iter': 400, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.1, hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.01, max_iter=400))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.1, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.01, 'clf__max_iter': 200, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.1, hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling',
+                               learning_rate_init=0.01))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 1e-05, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.01, 'clf__max_iter': 400, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=1e-05,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.01, max_iter=400))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 1e-05, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.01, 'clf__max_iter': 200, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=1e-05,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling',
+                               learning_rate_init=0.01))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 1e-05, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 100, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=1e-05,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive', learning_rate_init=0.1,
+                               max_iter=100))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 300, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               max_iter=300))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.01, 'clf__max_iter': 200, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling',
+                               learning_rate_init=0.01))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.0001, 'clf__max_iter': 200, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.001,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.0001))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 100, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.001,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling', max_iter=100))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 500, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.001,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive', max_iter=500))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.01, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 300, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.01,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               max_iter=300))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.01, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.01, 'clf__max_iter': 200, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.01,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling',
+                               learning_rate_init=0.01))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.01, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 100, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.01,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive', learning_rate_init=0.1,
+                               max_iter=100))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.1, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 500, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.1, hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.1, max_iter=500))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.1, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 300, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.1, hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling',
+                               learning_rate_init=0.1, max_iter=300))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.1, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 100, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.1, hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive', learning_rate_init=0.1,
+                               max_iter=100))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 1e-05, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 500, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=1e-05,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.1, max_iter=500))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 1e-05, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 100, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=1e-05,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling', max_iter=100))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 1e-05, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 500, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=1e-05,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive', max_iter=500))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.01, 'clf__max_iter': 400, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.01, max_iter=400))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 300, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling',
+                               learning_rate_init=0.1, max_iter=300))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 100, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive', learning_rate_init=0.1,
+                               max_iter=100))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.01, 'clf__max_iter': 400, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.001,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.01, max_iter=400))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.0001, 'clf__max_iter': 400, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.001,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive',
+                               learning_rate_init=0.0001, max_iter=400))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.01, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.01, 'clf__max_iter': 400, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.01,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.01, max_iter=400))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.01, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 300, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.01,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling',
+                               learning_rate_init=0.1, max_iter=300))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.1, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.0001, 'clf__max_iter': 200, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.1, hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.0001))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.1, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 100, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.1, hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling', max_iter=100))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.1, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 500, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.1, hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive', max_iter=500))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 1e-05, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.0001, 'clf__max_iter': 200, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=1e-05,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.0001))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 1e-05, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.0001, 'clf__max_iter': 400, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=1e-05,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive',
+                               learning_rate_init=0.0001, max_iter=400))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 500, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.1, max_iter=500))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.0001, 'clf__max_iter': 400, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive',
+                               learning_rate_init=0.0001, max_iter=400))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 500, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.001,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.1, max_iter=500))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'invscaling', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 300, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.001,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='invscaling',
+                               learning_rate_init=0.1, max_iter=300))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.001, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 100, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.001,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive', learning_rate_init=0.1,
+                               max_iter=100))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.01, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.1, 'clf__max_iter': 500, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.01,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate_init=0.1, max_iter=500))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.01, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.0001, 'clf__max_iter': 400, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.01,
+                               hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive',
+                               learning_rate_init=0.0001, max_iter=400))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.1, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'constant', 'clf__learning_rate_init': 0.001, 'clf__max_iter': 300, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.1, hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               max_iter=300))])
+pipeline_params: {'clf__activation': 'relu', 'clf__alpha': 0.1, 'clf__hidden_layer_sizes': (64, 32, 16, 8, 4), 'clf__learning_rate': 'adaptive', 'clf__learning_rate_init': 0.0001, 'clf__max_iter': 400, 'clf__solver': 'adam'}
+pipeline: Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(alpha=0.1, hidden_layer_sizes=(64, 32, 16, 8, 4),
+                               learning_rate='adaptive',
+                               learning_rate_init=0.0001, max_iter=400))])

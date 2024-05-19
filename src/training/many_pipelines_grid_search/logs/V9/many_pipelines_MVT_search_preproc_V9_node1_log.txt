@@ -1,0 +1,32 @@
+### LOG many_pipelines_MVT_search_preproc V9 ############################
+Name of the results: many_pipelines_MVT_search_preproc
+Version: 9
+Node index: 1
+Date: 2024-03-11 13:39:42
+
+### DEVICE ############################
+Number of nodes: 2
+Number of cores: 4
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 1
+Number of param per core: 0
+Estimated time for this node: 0.0 minutes, 0.0 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [-0.75], 'EPOCHS_LENGTH': [1.7], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [-6], 'FMIN': [9], 'FMAX': [30]}
+
+### Results preprocessing ############################
+Preprocessing done, time: 7.519983251889546 minutes, 0.1253330541981591 hours
+
+### Pipeline ############################
+Number of pipelines: 1
+Number of pipelines per core: 0
+Estimated time for the pipeline: 0.0 minutes, 0.0 hours
+
+### Grid pipeline ############################
+pipelines: {'pipeline_1': {'pipeline': [Pipeline(steps=[('clf', PyTorchCNNClassifier())])], 'clf__num_classes': [2], 'clf__epochs': [3], 'clf__batch_size': [32], 'clf__learning_rate': [0.001, 0.0001], 'file_preprocessing_path': ['./data/processed//NODE_1/params_0.npy']}}
+
+### Results training ############################
+Training and testing done, time: 0.08833949168523153 minutes, 0.0014723248614205255 hours
+

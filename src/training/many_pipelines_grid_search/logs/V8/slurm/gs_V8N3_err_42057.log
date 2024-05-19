@@ -1,0 +1,38 @@
+  0%|          | 0/88 [00:00<?, ?it/s]  1%|          | 1/88 [00:06<09:51,  6.80s/it]  2%|▏         | 2/88 [00:13<09:25,  6.58s/it]  3%|▎         | 3/88 [00:20<09:39,  6.82s/it]  5%|▍         | 4/88 [00:27<09:50,  7.02s/it]  6%|▌         | 5/88 [00:31<08:11,  5.92s/it]  7%|▋         | 6/88 [00:38<08:36,  6.30s/it]  8%|▊         | 7/88 [00:45<08:42,  6.45s/it]  9%|▉         | 8/88 [00:51<08:27,  6.34s/it] 10%|█         | 9/88 [00:57<08:13,  6.25s/it] 11%|█▏        | 10/88 [01:04<08:28,  6.52s/it] 12%|█▎        | 11/88 [01:12<08:52,  6.91s/it] 14%|█▎        | 12/88 [01:18<08:21,  6.59s/it] 15%|█▍        | 13/88 [01:24<07:59,  6.39s/it] 16%|█▌        | 14/88 [01:31<08:14,  6.69s/it] 17%|█▋        | 15/88 [01:39<08:24,  6.90s/it] 18%|█▊        | 16/88 [01:45<07:59,  6.66s/it] 19%|█▉        | 17/88 [01:48<06:37,  5.60s/it] 20%|██        | 18/88 [01:51<05:47,  4.97s/it] 22%|██▏       | 19/88 [01:58<06:24,  5.57s/it] 23%|██▎       | 20/88 [02:06<06:53,  6.09s/it] 24%|██▍       | 21/88 [02:12<06:56,  6.21s/it] 25%|██▌       | 22/88 [02:18<06:48,  6.19s/it] 26%|██▌       | 23/88 [02:25<06:56,  6.41s/it] 27%|██▋       | 24/88 [02:32<06:54,  6.48s/it] 28%|██▊       | 25/88 [02:35<05:45,  5.48s/it] 30%|██▉       | 26/88 [02:41<05:50,  5.66s/it] 31%|███       | 27/88 [02:47<05:56,  5.85s/it] 32%|███▏      | 28/88 [02:53<05:50,  5.84s/it] 33%|███▎      | 29/88 [02:59<05:39,  5.75s/it] 34%|███▍      | 30/88 [03:05<05:35,  5.79s/it] 35%|███▌      | 31/88 [03:10<05:26,  5.74s/it] 36%|███▋      | 32/88 [03:15<05:09,  5.54s/it] 38%|███▊      | 33/88 [03:20<04:58,  5.44s/it] 39%|███▊      | 34/88 [03:26<05:01,  5.59s/it] 40%|███▉      | 35/88 [03:32<05:00,  5.66s/it] 41%|████      | 36/88 [03:39<05:05,  5.87s/it] 42%|████▏     | 37/88 [03:44<04:49,  5.68s/it] 43%|████▎     | 38/88 [03:50<04:46,  5.72s/it] 44%|████▍     | 39/88 [03:56<04:53,  5.99s/it] 45%|████▌     | 40/88 [03:59<03:59,  5.00s/it] 47%|████▋     | 41/88 [04:04<03:55,  5.02s/it] 48%|████▊     | 42/88 [04:08<03:41,  4.82s/it] 49%|████▉     | 43/88 [04:14<03:48,  5.07s/it] 50%|█████     | 44/88 [04:20<03:49,  5.23s/it] 51%|█████     | 45/88 [04:25<03:50,  5.35s/it] 52%|█████▏    | 46/88 [04:31<03:47,  5.41s/it] 53%|█████▎    | 47/88 [04:36<03:42,  5.42s/it] 55%|█████▍    | 48/88 [04:42<03:36,  5.42s/it] 56%|█████▌    | 49/88 [04:43<02:48,  4.31s/it] 57%|█████▋    | 50/88 [04:48<02:52,  4.53s/it] 58%|█████▊    | 51/88 [04:51<02:26,  3.96s/it] 59%|█████▉    | 52/88 [04:56<02:30,  4.19s/it] 60%|██████    | 53/88 [05:00<02:29,  4.28s/it] 61%|██████▏   | 54/88 [05:05<02:26,  4.30s/it] 62%|██████▎   | 55/88 [05:09<02:21,  4.30s/it] 64%|██████▎   | 56/88 [05:13<02:12,  4.15s/it] 65%|██████▍   | 57/88 [05:15<01:48,  3.51s/it] 66%|██████▌   | 58/88 [05:19<01:49,  3.65s/it] 67%|██████▋   | 59/88 [05:21<01:31,  3.16s/it] 68%|██████▊   | 60/88 [05:25<01:40,  3.60s/it] 69%|██████▉   | 61/88 [05:30<01:46,  3.94s/it] 70%|███████   | 62/88 [05:36<01:54,  4.40s/it] 72%|███████▏  | 63/88 [05:38<01:39,  3.97s/it] 73%|███████▎  | 64/88 [05:44<01:43,  4.30s/it] 74%|███████▍  | 65/88 [05:49<01:47,  4.68s/it] 75%|███████▌  | 66/88 [05:55<01:48,  4.92s/it] 76%|███████▌  | 67/88 [06:00<01:46,  5.07s/it] 77%|███████▋  | 68/88 [06:06<01:44,  5.23s/it] 78%|███████▊  | 69/88 [06:12<01:43,  5.47s/it] 80%|███████▉  | 70/88 [06:17<01:39,  5.54s/it] 81%|████████  | 71/88 [06:24<01:37,  5.76s/it] 82%|████████▏ | 72/88 [06:30<01:34,  5.88s/it] 83%|████████▎ | 73/88 [06:36<01:29,  5.98s/it] 84%|████████▍ | 74/88 [06:42<01:22,  5.89s/it] 85%|████████▌ | 75/88 [06:47<01:15,  5.83s/it] 86%|████████▋ | 76/88 [06:53<01:10,  5.90s/it] 88%|████████▊ | 77/88 [06:59<01:03,  5.81s/it] 89%|████████▊ | 78/88 [07:05<00:59,  5.97s/it] 90%|████████▉ | 79/88 [07:11<00:52,  5.86s/it] 91%|█████████ | 80/88 [07:17<00:46,  5.85s/it] 92%|█████████▏| 81/88 [07:22<00:40,  5.76s/it] 93%|█████████▎| 82/88 [07:29<00:35,  5.91s/it] 94%|█████████▍| 83/88 [07:34<00:29,  5.80s/it] 95%|█████████▌| 84/88 [07:40<00:22,  5.73s/it] 97%|█████████▋| 85/88 [07:45<00:17,  5.71s/it] 98%|█████████▊| 86/88 [07:51<00:11,  5.72s/it] 99%|█████████▉| 87/88 [07:58<00:05,  5.93s/it]100%|██████████| 88/88 [08:04<00:00,  5.99s/it]100%|██████████| 88/88 [08:04<00:00,  5.50s/it]/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py:752: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 463, in _process_worker
+    r = call_item()
+  File "/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/parallel.py", line 589, in __call__
+    return [func(*args, **kwargs)
+  File "/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/parallel.py", line 589, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/scratch/students/j.delavande/PIE_2023/src/ml_eeg_tools/train/grid_search.py", line 204, in train_test_one_core
+    with open(pipeline_dict["file_preprocessing_path"], "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './data/processed//NODE_3/params_0.npy'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "script_grid_search.py", line 58, in <module>
+    run_search_one_node(
+  File "/scratch/students/j.delavande/PIE_2023/src/ml_eeg_tools/train/grid_search.py", line 520, in run_search_one_node
+    results = Parallel(n_jobs=n_jobs)(
+  File "/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/parallel.py", line 1952, in __call__
+    return output if self.return_generator else list(output)
+  File "/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/parallel.py", line 1595, in _get_outputs
+    yield from self._retrieve()
+  File "/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/parallel.py", line 1699, in _retrieve
+    self._raise_error_fast()
+  File "/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/parallel.py", line 1734, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/parallel.py", line 736, in get_result
+    return self._return_or_raise()
+  File "/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/joblib/parallel.py", line 754, in _return_or_raise
+    raise self._result
+FileNotFoundError: [Errno 2] No such file or directory: './data/processed//NODE_3/params_0.npy'

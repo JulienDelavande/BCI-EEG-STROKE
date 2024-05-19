@@ -1,0 +1,17 @@
+### LOG RSVM_MVT_search_preproc V1 ############################
+Name of the results: RSVM_MVT_search_preproc
+Version: 1
+Node index: 3
+
+### DEVICE ############################
+Number of nodes: 8
+Number of cores: 6
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 30
+Number of param per core: 5
+Estimated time for this node: 55.0 minutes, 0.9166666666666666 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [-1, -0.5, 0], 'EPOCHS_LENGTH': [-8, -7, -6, -5, -4.5, -4, -3.5, -3], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5], 'FMIN': [1], 'FMAX': [40]}
+

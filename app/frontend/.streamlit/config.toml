@@ -1,0 +1,26 @@
+[browser]
+gatherUsageStats = false
+
+[app]
+title = "Appli - EEG-Stroke"
+icon = "🧠"
+layout = "wide"
+initial_sidebar_state = "auto"
+
+[theme]
+primaryColor = "#3498db"  # Bleu
+backgroundColor = "#ffffff"  # Blanc
+secondaryBackgroundColor = "#f0f8ff"  # Bleu clair
+textColor = "#000000"  # Noir
+font = "sans serif"
+
+
+[elements.button]
+backgroundColor = "#5bc0de"
+textColor = "#ffffff"
+
+[server]
+enableXsrfProtection = false
+enableCORS = false
+maxUploadSize = 500
+

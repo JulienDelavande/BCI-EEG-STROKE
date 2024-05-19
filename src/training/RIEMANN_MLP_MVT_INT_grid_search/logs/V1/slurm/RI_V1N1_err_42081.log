@@ -1,0 +1,6 @@
+ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/scratch/students/j.delavande/PIE_2023/src/training/venv_training/lib/python3.8/site-packages/ml_eeg_tools-0.1.0.dist-info/'
+
+Traceback (most recent call last):
+  File "script_grid_search.py", line 1, in <module>
+    from ml_eeg_tools.train.grid_search import run_search_one_node, parse_args
+ModuleNotFoundError: No module named 'ml_eeg_tools'

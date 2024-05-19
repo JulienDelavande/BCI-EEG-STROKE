@@ -1,0 +1,33 @@
+### LOG RMLP_MVT_INT_search_preproc V1 ############################
+Name of the results: RMLP_MVT_INT_search_preproc
+Version: 1
+Node index: 5
+Date: 2024-03-07 18:22:40
+
+### DEVICE ############################
+Number of nodes: 6
+Number of cores: 4
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 1
+Number of param per core: 0
+Estimated time for this node: 0.0 minutes, 0.0 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [0], 'EPOCHS_LENGTH': [2], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [-6], 'EPOCHS_INTENTION_FROM_MVT_TMIN': [-2], 'FMIN': [9], 'FMAX': [30]}
+
+### Results preprocessing ############################
+Preprocessing done, time: 7.713770123322805 minutes, 0.1285628353887134 hours
+
+### Pipeline ############################
+Number of pipelines: 14
+Number of pipelines per core: 3
+Estimated time for the pipeline: 33.0 minutes, 0.55 hours
+
+### Grid pipeline ############################
+pipelines: {'pipeline_1': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf', MLPClassifier())])], 'clf__hidden_layer_sizes': [(100, 100), (100, 100, 100), (100, 100, 100, 100), (100, 100, 100, 100, 100), (8, 4), (8, 4, 2), (16, 8), (16, 8, 4), (16, 8, 4, 2), (32, 16), (32, 16, 8), (32, 16, 8, 4), (32, 16, 8, 4, 2), (64, 32), (64, 32, 16), (64, 32, 16, 8), (64, 32, 16, 8, 4), (128, 64), (128, 64, 32), (128, 64, 32, 16), (128, 64, 32, 16, 8)], 'clf__activation': ['identity', 'logistic', 'tanh', 'relu'], 'file_preprocessing_path': ['./data/processed//NODE_5/params_0.npy']}}
+
+### Results training ############################
+Training and testing done, time: 34.93119804859161 minutes, 0.5821866341431936 hours
+

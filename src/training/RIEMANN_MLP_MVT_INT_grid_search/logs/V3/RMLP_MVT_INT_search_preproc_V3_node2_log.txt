@@ -1,0 +1,33 @@
+### LOG RMLP_MVT_INT_search_preproc V3 ############################
+Name of the results: RMLP_MVT_INT_search_preproc
+Version: 3
+Node index: 2
+Date: 2024-03-08 15:21:39
+
+### DEVICE ############################
+Number of nodes: 6
+Number of cores: 4
+
+### Parameters preprocessing ############################
+Number of parameters for this node: 1
+Number of param per core: 0
+Estimated time for this node: 0.0 minutes, 0.0 hours
+
+### Grid preprocessing ############################
+params: {'EPOCHS_TMIN': [0], 'EPOCHS_LENGTH': [2], 'EPOCHS_EMPTY_FROM_MVT_TMIN': [-6], 'EPOCHS_INTENTION_FROM_MVT_TMIN': [-2], 'FMIN': [9], 'FMAX': [30]}
+
+### Results preprocessing ############################
+Preprocessing done, time: 7.817146984736125 minutes, 0.1302857830789354 hours
+
+### Pipeline ############################
+Number of pipelines: 50
+Number of pipelines per core: 12
+Estimated time for the pipeline: 132.0 minutes, 2.2 hours
+
+### Grid pipeline ############################
+pipelines: {'pipeline_1': {'pipeline': [Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf', MLPClassifier())])], 'clf__hidden_layer_sizes': [(64, 32, 16, 8, 4)], 'clf__activation': ['relu'], 'clf__solver': ['adam'], 'clf__alpha': [1e-05, 0.0001, 0.001, 0.01, 0.1], 'clf__learning_rate': ['constant', 'invscaling', 'adaptive'], 'clf__learning_rate_init': [0.0001, 0.001, 0.01, 0.1], 'clf__max_iter': [100, 200, 300, 400, 500], 'file_preprocessing_path': ['./data/processed//NODE_2/params_0.npy']}}
+
+### Results training ############################
+Training and testing done, time: 113.75553200244903 minutes, 1.8959255333741505 hours
+

@@ -1,0 +1,33 @@
+# virtualenv
+**/venv
+**/backend_venv
+**/venv_*
+
+# Executables
+**/build
+**/dist
+**.spec
+
+# Data
+*.npy
+*.mat
+*.pkl
+*.zip
+
+# Logs
+**/__pycache__/
+*.pyc
+*.DS_Store
+
+# local packages
+src/*.egg-info
+src/*/*.egg-info
+
+# IDE
+.vscode
+
+# build
+**/build
+
+# temp file
+**/temp/*

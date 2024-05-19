@@ -1,0 +1,51 @@
+EPOCHS_EMPTY_FROM_MVT_TMIN,EPOCHS_INTENTION_FROM_MVT_TMIN,EPOCHS_LENGTH,EPOCHS_TMIN,FMAX,FMIN,pipeline,clf__activation,clf__hidden_layer_sizes,score_A,score_B,score_C,score_X,duration_preprocessing,duration_train,memory,FILE_PATH,NUMBER_OF_SESSIONS,RANDOM_STATE,N_SPLIT,BINARY_CLASSIFICATION,VERSION,PATH_RESULTS,NAME_RESULTS,PATH_DATA_PROCESSED,FOLDER_RESULTS_ITERATIONS,NAME_RESULTS_ITERATIONS,LOG_FOLDER,SAVE_EACH_ITERATION,REMOVE_ITERATIONS,REMOVE_DATA_PROCESSED
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(activation='identity',
+                               hidden_layer_sizes=(8, 4, 2)))])",identity,"(8, 4, 2)",0.557588925359547,0.5617739089357006,0.5503619610814147,0.5541306415735666,469.9304447174072,388.40648341178894,3397.76171875,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(activation='identity',
+                               hidden_layer_sizes=(32, 16, 8, 4)))])",identity,"(32, 16, 8, 4)",0.5550317850549791,0.5601986178151781,0.5510386130379145,0.5517760643898492,469.9304447174072,421.41222620010376,2916.73046875,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(activation='identity',
+                               hidden_layer_sizes=(128, 64)))])",identity,"(128, 64)",0.5550848765834744,0.5607781948757957,0.5516448017636049,0.5543226289437286,469.9304447174072,466.8845500946045,2919.55078125,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(activation='logistic',
+                               hidden_layer_sizes=(100, 100, 100, 100)))])",logistic,"(100, 100, 100, 100)",0.5285526001106411,0.5434478552226788,0.5219912789750732,0.5396861081138349,469.9304447174072,794.5672600269318,2920.68359375,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(activation='logistic',
+                               hidden_layer_sizes=(16, 8, 4, 2)))])",logistic,"(16, 8, 4, 2)",0.576460023978931,0.5679823156813192,0.5693999813144264,0.5373289582299687,469.9304447174072,494.5967433452606,3398.05859375,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(activation='logistic',
+                               hidden_layer_sizes=(64, 32, 16)))])",logistic,"(64, 32, 16)",0.5830963213612435,0.5607692206031697,0.5494249041692071,0.5709544144958068,469.9304447174072,677.5167117118835,2919.1796875,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(activation='logistic',
+                               hidden_layer_sizes=(128, 64, 32, 16, 8)))])",logistic,"(128, 64, 32, 16, 8)",0.5161454235510097,0.535127739015613,0.5331157623598659,0.5360879281637826,469.9304447174072,492.6940903663635,2919.40625,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(activation='tanh',
+                               hidden_layer_sizes=(8, 4, 2)))])",tanh,"(8, 4, 2)",0.5635110755825932,0.5617377475173252,0.5433338200664826,0.5587751432993244,469.9304447174072,514.0185868740082,2918.21484375,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(activation='tanh',
+                               hidden_layer_sizes=(32, 16, 8, 4)))])",tanh,"(32, 16, 8, 4)",0.5745497500278982,0.5695593731884034,0.5382554010589851,0.5659496666840205,469.9304447174072,447.60765504837036,3398.06640625,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(activation='tanh',
+                               hidden_layer_sizes=(128, 64)))])",tanh,"(128, 64)",0.5713652251765833,0.5737788431681963,0.5376975056660042,0.5783008863438024,469.9304447174072,574.1639568805695,2919.6015625,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(100, 100, 100, 100)))])",relu,"(100, 100, 100, 100)",0.5845200078262442,0.5824499429952392,0.5437711867874444,0.5840947082848704,469.9304447174072,435.5568721294403,2923.703125,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf', MLPClassifier(hidden_layer_sizes=(16, 8, 4, 2)))])",relu,"(16, 8, 4, 2)",0.556303529477442,0.5734451271372365,0.5369149325327842,0.5674568640514495,469.9304447174072,471.88263845443726,2918.22265625,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf', MLPClassifier(hidden_layer_sizes=(64, 32, 16)))])",relu,"(64, 32, 16)",0.5872839715857532,0.5820309660648479,0.5422145786784086,0.5830225919756146,469.9304447174072,386.4420368671417,3398.25390625,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True
+-6,-2,2,0,30,9,"Pipeline(steps=[('cov', Covariances()), ('ts', TangentSpace()),
+                ('clf',
+                 MLPClassifier(hidden_layer_sizes=(128, 64, 32, 16, 8)))])",relu,"(128, 64, 32, 16, 8)",0.5921866940697054,0.588657858302412,0.5459678753214978,0.5825452758395196,469.9304447174072,399.4223442077637,2921.0234375,./../../../data/raw/Data_npy/,-1,42,4,True,1,./results/,RMLP_MVT_INT_search_preproc,./data/processed/,/iterations/,RMLP_MVT_INT_search_preproc_iter,./logs/,True,True,True

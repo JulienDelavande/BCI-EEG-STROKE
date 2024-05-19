@@ -1,0 +1,335 @@
+{
+    "app_title": "🧠 EEG-Stroke",
+
+    "initial_state": {
+        "info": { 
+        "Fichier sélectionné" : "Aucun fichier sélectionné",
+        "ID Patient" : "None",
+        "Numéro de session" : "None",
+        "Côté parétique" : "None"
+        },
+        
+        "selection" : {
+            "Sélection des données" : "Sélection des électrodes par défaut : toutes les électrodes du côté parétique sont conservées."
+        },
+
+        "temporal":{
+            "Sélection temporelle" : "Sélection temporelle par défaut : toute la durée de l'expérience est conservée."
+        },
+
+        "model": {
+            "Modèle sélectionné" : "Le modèle par défaut (le premier modèle de la liste) est sélectionné."
+        },
+        "input_schema":{
+            "model": "None",
+            "bad_channels": [],
+            "arm_side": "",
+            "time_range": [0,0],
+            "brain_side": "",
+            "data_location": ""
+          },
+        "current_detection": "Aucun traitement de données n'a été réalisé avec vos paramètres actuels."
+        ,
+        "last_detection":{
+        },
+        "intention_info":{
+
+        }
+    },
+
+    "button_label": {
+        "reset_label": "RESET",
+        "validate_label": "VALIDER",
+        "health_label": "Vérifier le fonctionnement de l'application"
+    },
+
+    "sidebar" : {
+        "header_upload" : "**Etape 1 : Mettre en ligne un fichier**",
+        "uploader_label" : "Téléchargez les données EEG ci-dessous.",
+        "header_info" : "🔍 **Informations sur les données**",
+        "help_toggle_label" : "Afficher les messages d'aide",
+        "header_tools" : "🔧 **Outils**"
+        },
+
+
+    "help_expander":{
+        "help_label" : "🚨 Besoin d'aide ?"
+        },
+    
+
+    "prediction_parameters": {
+        "model_default" : ""
+    },
+
+    
+    "tabs": {
+        "labels" : ["Paramètres", "Détection", "Résultats","Guide utilisateur"]
+    },
+
+    "parameters_tab":{
+        "size_column": [2,4],
+        "status_subheader": "Statut :",
+        "buttons_subheader": "Boutons :",
+        "display_col": {
+            "subheader" : "Affichage :",
+            "data_display_message": "Quelles électrodes voulez-vous afficher ?"
+        },
+        "expe_parameters_header":"Etape 2 : Paramètres liés à l'expérience",
+        "selection_container": {
+            "header":"Etape 2.1 : Electrodes à ignorer",
+            "electrodes_layout": [
+                "Fp1", "Fp2", "F7", "F3", "Fz", "F4", "F8",
+                "Cp1", "Cp2", "C3", "Cz", "C4", "P3", "Pz", "P4",
+                "PO7", "PO3", "POz", "PO4", "PO8", "O1", "Oz", "O2",
+                "AF7", "AF3", "AF4", "AF8",
+                "F5", "F1", "F2", "F6",
+                "FC3", "FCz", "FC4",
+                "C5", "C1", "C2", "C6",
+                "CP3", "CPz", "CP4",
+                "P5", "P1", "P2", "P6",
+                "PO5", "PO1", "PO2", "PO6",
+                "FT7", "FT8",
+                "TP7", "TP8",
+                "P7", "P8",
+                "O9", "O10"
+                        ],
+                "selection_status":{"field": "Sélection des données", "value": "Sélection effectuée. Vous avez retiré : "},
+                "no_image_error": "Aucune image n'a été trouvée : problème avec le jeu de données EEG.",    
+                "selection_label": "Sélectionnez les électrodes à retirer :",
+                "no_file_warning": "Vous n'avez pas sélectionné de fichier.",
+                "no_electrode_error": "Aucun signal du côté paralysé : problème avec le jeu de données EEG.",
+                "help_content" : ["1. 🎯 Cette étape vous permet de retirer des électrodes qui ont rencontré un problème technique lors de l'expérimentation (débranchement, artefact, etc.) ou pour appliquer un certain paradigme (utiliser seulement le cortex moteur du côté parétique par exemple).",
+                "2. ⚠️​ Assurez-vous d'avoir mis en ligne un fichier  dans la barre à gauche de la page.",
+                "3. 📈 Lorsque vous avez mis en ligne un fichier, une image des signaux EEG brute s'affiche pour vous permettre de visualiser les signaux. Si aucune image n'apparaît, cela signifie qu'il y a un problème avec le jeu de données EEG.",
+                "4. ❓ Sélectionner dans la liste déroulante les électrodes que vous souhaitez éliminer avant tout traitement.",
+                "5. ❔ Par défaut, seules les électrodes du côté parétique sont utilisées dans le cadre du neurofeedback et parmi elles, aucune électrode n'est éliminée.",
+                "6. ​✅​ Une fois les électrodes sélectionnées, cliquez sur le bouton VALIDER pour les valider.",
+                "7. ❎​ Vous pouvez également réinitialiser les électrodes sélectionnées en cliquant sur le bouton RESET.",
+                "8. 📅​ Le statut se met à jour une fois votre sélection faite."]
+        },
+        "temporal_container":{
+            "header":"Etape 2.2 : Début et fin de l'expérience",
+            "temporal_label": "Sélectionnez le début et la fin des mesures :",
+            "no_file_warning": "Vous n'avez pas sélectionné de fichier.",
+            "help_content" : ["1. 🎯 Cette étape vous permet de sélectionner les bornes temporelles qui vous intéressent pour l'analyse.",
+            "2. ⚠️ Assurez-vous d'avoir mis en ligne un fichier dans la barre à gauche de la page.",
+            "3. ❓ Vous pouvez modifier le début de l'expérience, la fin de l'expérience ou les deux en utilisant la barre glissante qui apparaît après le chargement du fichier.",
+            "4. ❔​ Par défaut, toute la durée de l'expérience est conservée.",
+            "5. ✅ Une fois les bornes temporelles sélectionnées, cliquez sur le bouton VALIDER pour les valider.",
+            "6. ❎​ Vous pouvez également réinitialiser les bornes temporelles sélectionnées en cliquant sur le bouton RESET.",
+            "7. 📅​ Le statut se met à jour une fois votre sélection faite. "],
+            "time_step" : 1,
+            "temporal_selected_status": {"field": "Sélection temporelle", "value": "L'expérience se déroule entre : "},
+            "no_signal_error": "Aucun signal lors des mouvements du bras du côté parétique n'a été détecté dans le fichier que vous avez mis en ligne : problème avec le jeu de données EEG.",
+            "no_image_error": "Aucune image n'a été trouvée : problème avec le jeu de données EEG."
+        
+        },
+        "pipeline_parameters_header":"Etape 3 : Paramètres liés à l'algorithme de détection",
+        "model_container": {
+            "header":"Etape 3.1 : Choix du modèle",
+            "model_selectbox_label": "Choisissez le modèle de détection de l'intention de mouvement ou du mouvement",
+            "no_file_warning": "Vous n'avez pas sélectionné de fichier.",
+            "help_content" : ["1. 🎯 Cette étape vous permet de choisir le modèle de détection de l'intention de mouvement que vous souhaitez utiliser.",
+            "2. ⚠️ Assurez-vous d'avoir mis en ligne un fichier dans la barre à gauche de la page.",
+            "3. ❓ Vous pouvez choisir entre plusieurs modèles de détection de l'intention de mouvement ou du mouvement, les détails des modèles sont donnés dans la fenêtre de droite.",
+            "4. ❔ Par défaut, le premier modèle disponible est sélectionné.",
+            "5. ✅ Une fois le modèle sélectionné, cliquez sur le bouton VALIDER pour le valider.",
+            "6. ❎ Vous pouvez également réinitialiser le modèle sélectionné en cliquant sur le bouton RESET.",
+            "7. 📅 Le statut se met à jour une fois votre sélection faite pour vous permettre de vérifier votre sélection."],
+            "model_label" : "Sélectionnez un modèle",
+            "model_options": ["Modèle 1 (par défaut)", "Modèle 2", "Modèle 3", "Modèle 4", "Modèle 5"],
+            "model_details": {
+                "Modèle 1 (par défaut)": "SVM",
+                "Modèle 2": "Random Forest",
+                "Modèle 3": "Réseau de neurones",
+                "Modèle 4": "KNN",
+                "Modèle 5": "LDA"
+            },
+            "no_model_error": "Aucun modèle n'a été sélectionné.",
+            "model_selected_status": {
+                "field" : "Modèle sélectionné",
+                "value" : "Modèle sélectionné pour la détection : "
+            },
+            "display_subheader" : "Détails des modèles"
+             }
+    },
+
+    "detection_tab":{
+        "size_column": [2,4],
+        "model_container": {
+
+        },
+        "status_subheader":"Statut :",
+        "buttons_subheader":"Boutons :",
+        "data_detection_container": {
+            "header":"Etape 4 : Réalisation de la détection",
+            "help_content":["1. 🎯 Cette étape vous permet de réaliser la détection de l'intention de mouvement avec les paramètres que vous avez choisis dans l'onglet Paramètres.",
+            "2. ⚠️ Assurez-vous d'avoir mis en ligne un fichier dans la barre à gauche de la page et d'avoir sélectionné les paramètres, si vous ne souhaitiez pas utiliser les paramètres par défaut.",
+            "3. ✅ Une fois les paramètres choisis, cliquez sur le bouton Détecter ! pour réaliser la détection.",
+            "4. 📅 Le statut se met à jour une fois la détection réalisée.",
+            "5. ❓ Une fois le bouton Détecter ! cliqué, la requête est traitée par l'application et peut mettre un certain temps à être réalisée (en général quelques dizaines de secondes).",
+            "6. 📁 Vous pouvez ensuite sauvegarder les résultats obtenus dans l'onglet Résultats."],
+            
+            "detection_button_label":"Détecter !",
+            "no_file_warning":"Vous n'avez pas sélectionné de fichiers.",
+            "parameter_display_label": "Résumé des paramètres choisis",
+            "status_default":"Aucun traitement de données réalisé.",
+            "display_subheader": "Paramètres choisis :",
+            "display_content":{
+                "bad_channels": "Electrodes éliminées :",
+                "time_range":"Bornes temporelles :",
+                "model":"Modèle choisi :"
+            }
+        },
+        "detection_bad_request" : "Erreur lors de la prédiction. Code d'erreur : ",
+        "detection_bad_input" : "Erreur lors de la prédiction. Vérifiez que vous avez bien mis en ligne un fichier et que vous avez sélectionné les paramètres nécessaires dans la partie précédente.",
+        "detection_success": "La détection de l'intention de mouvement a été réalisée avec succès, avec les paramètres suivants :",
+        "no_crop_status": "Bornes temporelles : Toute l'expérience est conservée"
+    },
+
+    "results_tab":{
+        "infos_subheader":"Informations :",
+        "intention_container":{
+            "header":"Etape 5 : Affichage des résultats de la détection",
+            "help_content":["1. Cette étape vous permet de visualiser les résultats de la détection de l'intention de mouvement."],
+            "no_file_warning":"Vous n'avez pas sélectionné de fichier.",
+            "no_detection_warning":"Vous n'avez pas encore réalisé de traitement de données.",
+            "save_file_label":"Sauvegarder les résultats",
+            "display_content":{
+                "mvt_or_intention":"Ce modèle détecte ",
+                "threshold": "Détection avec un seuil de "
+            }
+        }
+
+    },
+    
+    "user_guide_tab":{
+        "size_column": [2,4],
+        "welcome_container": {
+            "header" : "🤗 Bienvenue dans le guide utilisateur !",
+            "intro" : ["🗺️ Vous êtes sur l'onglet contenant le guide utilisateur de l'application EEG-Stroke : si vous avez **besoin d'aide** pour utiliser cette application vous êtes au bon endroit !",
+                "💪 Cette application permet de **détecter l'intention de mouvement ou le mouvement** dans le signal électroencéphalographique de patients post-AVC qui réalisent des séries de flexion-extension du bras.",
+                "🧠 Elle s'inscrit dans une volonté d'utiliser le neurofeedback pour la rééducation de ces patients. Cette application est à visée de recherche."],
+            "table_of_content": ["Avec ce guide, vous allez apprendre à :",
+                "- **Etape 1**: Mettre en ligne un fichier contenant des données EEG,",
+                "- **Etape 2**: Modifier les paramètres expérimentaux,",
+                "- **Etape 3**: Modifier les paramètres algorithmiques,",
+                "- **Etape 4**: Réaliser la détection de l'intention de mouvement ou du mouvement,",
+                "- **Etape 5**: Afficher et sauvegarder les résultats que vous souhaitez.",
+            "🚨 Ce guide a pour but de récapituler toutes les informations nécessaires à la prise en main de l'application. Vous trouverez des messages d'aide tout au long de votre parcours utilisateur."],
+            "funny_message":"*N'est ce pas merveilleux ? Bonne lecture !*"},
+        "sidebar_container":{
+            "header": "Etape 1 : La barre latérale et la mise en ligne des données",
+            "content": ["*Dans cette première étape, vous allez apprendre à mettre en ligne un fichier contenant des données EEG.*",
+                "- **Cette première étape se déroule dans la barre latérale à gauche de votre écran.**",
+                "- C'est la première étape à réaliser lorsque vous lancez l'application. Elle a pour but de vous permettre de charger un fichier contenant des données EEG.",
+                "- Une fois le fichier chargé, vous pouvez passer à l'étape suivante."],
+            "image":"./user_guide_screens/screen_sidebar.png",
+            "uploader_help":{
+                "header": "La fenêtre de mise en ligne",
+                "content": ["1. 🎯 Cette fenêtre vous permet de mettre en ligne un fichier contenant des données EEG.",
+                "2. ❓ Vous pouvez cliquer et déposer un fichier .mat ou .npy dans la fenêtre ou cliquer sur le bouton Browse files pour sélectionner un fichier.",
+                "3. ⚠️​ Assurez-vous que le fichier que vous mettez en ligne contient bien des données EEG. Il est obligatoire de mettre en ligne un fichier pour la suite.",
+                "4. ✅ Une fois le fichier mis en ligne, l'applicaiton prend un peu moins d'une minute à traiter le fichier pour en extraire les informations intéressantes et la structure de données nécessaires pour la détection.",
+                "5. Une fois le chargement du fichier effectué, vous pouvez consulter les informations dans la fenêtre Informations sur les données."],
+                "image":"./user_guide_screens/screen_upload.png"
+            },
+            "information_help":{
+                "header": "🔍 La fenêtre d'informations sur les données",
+                "content": ["1. 🎯 Cette fenêtre vous permet de consulter les informations sur le fichier que vous avez mis en ligne, comme le nom du fichier, l'ID du patient, le numéro de session et le côté parétique.",
+                "2. ❓ Par défaut, aucune information n'est affichée. Une fois un fichier chargé, les informations s'actualisent comme visible sur l'image à gauche.",
+                "3. ⚠️​ Assurez-vous que les informations affichées correspondent bien à celles de votre fichier.",
+                "4. ✅ Une fois les informations vérifiées, vous pouvez passer à l'étape suivante."],
+                "image":"./user_guide_screens/screen_info.png"
+            },
+            "tools_help":{
+                "header": "🔧 Les outils",
+                "content": ["1. 🎯 Cette fenêtre vous permet de vérifier le bon fonctionnement de l'application et d'afficher ou non les messages d'aide.",
+                "2. ❓ Vous pouvez cliquer sur le bouton Vérifier le fonctionnement de l'application pour lancer un test de bon fonctionnement. Vous pouvez également cliquer sur le bouton Afficher les messages d'aide pour afficher ou masquer les messages d'aide.",
+                "3. ⚠️​ Cette étape est facultative. "]
+            }
+
+            
+        },
+        "parameters_container":{
+            "header": "L'onglet paramètres",
+            "content": ["*Dans cet onglet, vous pouvez sélectionner les paramètres liés à l'expérience et à l'algorithme de détection de l'intention de mouvement et du mouvement.*",
+                "- C'est le premier onglet ouvert lorsque vous lancez l'application. Il a pour but de vous permettre de modifier les paramètres pour la détection du mouvement ou de l'intention de mouvement.",
+                "- Une première sous partie concerne les paramètres liés à l'expérience : vous pouvez choisir les électrodes à ignorer ainsi que le début et la fin de l'expérience. Une seconde partie concerne les paramètres algorithmiques avec le choix du modèle de détection de l'intention de mouvement ou du mouvement.",
+                "- Vous pouvez choisir de passer cet onglet si vous souhaitez utiliser les paramètres par défaut. Le cas contraire, une fois les paramètres choisis, vous pouvez les valider et passer à l'étape suivante."],
+            "image":"./user_guide_screens/screen_parameters.png",
+            "subheader_expe": "*Etape 2* : Paramètres liés à l'expérience",
+            "electrodes":{
+                "header": "*Etape 2.1* : Sélection des électrodes à ignorer :",
+                "content": ["1. 🎯 Cette étape vous permet de retirer des électrodes qui ont rencontré un problème technique lors de l'expérimentation (débranchement, artefact, etc.) ou pour appliquer un certain paradigme (utiliser seulement le cortex moteur du côté parétique par exemple).",
+                "2. ⚠️​ Assurez-vous d'avoir mis en ligne un fichier  dans la barre à gauche de la page.",
+                "3. 📈 Lorsque vous avez mis en ligne un fichier, une image des signaux EEG brute s'affiche pour vous permettre de visualiser les signaux. Si aucune image n'apparaît, cela signifie qu'il y a un problème avec le jeu de données EEG.",
+                "4. ❓ Sélectionner dans la liste déroulante les électrodes que vous souhaitez éliminer avant tout traitement.",
+                "5. ❔ Par défaut, seules les électrodes du côté parétique sont utilisées dans le cadre du neurofeedback et parmi elles, aucune électrode n'est éliminée.",
+                "6. ​✅​ Une fois les électrodes sélectionnées, cliquez sur le bouton VALIDER pour les valider.",
+                "7. ❎​ Vous pouvez également réinitialiser les électrodes sélectionnées en cliquant sur le bouton RESET.",
+                "8. 📅​ Le statut se met à jour une fois votre sélection faite."],
+                "image":"./user_guide_screens/screen_electrodes.png"
+            },
+            "temporal":{
+                "header": "*Etape 2.2* : Sélection du début et de la fin de l'expérience :",
+                "content": ["1. 🎯 Cette étape vous permet de sélectionner les bornes temporelles qui vous intéressent pour l'analyse.",
+                "2. ⚠️ Assurez-vous d'avoir mis en ligne un fichier dans la barre à gauche de la page.",
+                "3. 📈 Lorsque vous avez mis en ligne un fichier, une image des signaux EEG brute s'affiche pour vous permettre de visualiser les signaux. Si aucune image n'apparaît, cela signifie qu'il y a un problème avec le jeu de données EEG.",
+                "4. ❓ Vous pouvez modifier le début de l'expérience, la fin de l'expérience ou les deux en utilisant la barre glissante qui apparaît après le chargement du fichier. Les bornes temporelles sur la barre glissante sont exprimées en minutes et secondes.",
+                "5. ❔​ Par défaut, toute la durée de l'expérience est conservée.",
+                "6. ✅ Une fois les bornes temporelles sélectionnées avec la barre glissante, cliquez sur le bouton VALIDER pour les valider.",
+                "7. ❎​ Vous pouvez également réinitialiser les bornes temporelles sélectionnées en cliquant sur le bouton RESET.",
+                "8. 📅​ Le statut se met à jour une fois votre sélection faite. "],
+                "image":"./user_guide_screens/screen_temporal.png"
+            },
+            "subheader_pipeline": "*Etape 3* : Paramètres liés à l'algorithme de détection",
+            "model":{ 
+                "header": "Choix du modèle :",
+                "content": ["1. 🎯 Cette étape vous permet de choisir le modèle de détection de l'intention de mouvement que vous souhaitez utiliser.",
+                "2. ⚠️ Assurez-vous d'avoir mis en ligne un fichier dans la barre à gauche de la page. Une fois le fichier mis en ligne, la liste des modèles disponibles s'affiche avec des détails sur chacun. Le nom du modèle est encadré en vert et les détails du traitement de données effectué est encadré en orange sur la photo.",
+                "3. ❓ Vous pouvez choisir entre plusieurs modèles de détection de l'intention de mouvement ou du mouvement.",
+                "4. ❔ Par défaut, le premier modèle disponible est sélectionné.",
+                "5. ✅ Une fois le modèle sélectionné, cliquez sur le bouton VALIDER pour le valider.",
+                "6. ❎ Vous pouvez également réinitialiser le modèle sélectionné en cliquant sur le bouton RESET.",
+                "7. 📅 Le statut se met à jour une fois votre sélection faite pour vous permettre de vérifier votre sélection."],
+                "image":"./user_guide_screens/screen_model.png"
+            }
+            
+            },
+        "detection_container":{
+            "header": "L'onglet Détection",
+            "content": ["*Dans cet onglet, vous pouvez réaliser la détection de l'intention de mouvement ou du mouvement avec les paramètres que vous avez choisis dans l'onglet Paramètres.*",
+                "- C'est le second onglet disponible lorsque vous lancez l'application. Il a pour but de vous permettre de réaliser la détection de l'intention de mouvement ou du mouvement."],
+            "image":"./user_guide_screens/screen_detection.png",
+            "detection":{
+                "header": "*Etape 4* : Réalisation de la détection :",
+                "content": ["1. 🎯 Cette étape vous permet de réaliser la détection de l'intention de mouvement avec les paramètres que vous avez choisis dans l'onglet Paramètres."
+                ,"2. ⚠️ Assurez-vous d'avoir mis en ligne un fichier dans la barre à gauche de la page et d'avoir sélectionné les paramètres, si vous ne souhaitiez pas utiliser les paramètres par défaut. Par défaut, sans aucune détection faite et avec les paramètres par défaut, l'onglet est comme sur la première image.",
+                "3. ✅ Une fois les paramètres choisis lors de la précédente étape vérifié, cliquez sur le bouton Détecter ! pour réaliser la détection.",
+                "4. 📅 Le statut se met à jour une fois la détection réalisée, indiquant les paramètres utilisés pour sa réalisation, comme visible sur la seconde image.",
+                "5. ❓ Une fois le bouton Détecter ! cliqué, la requête est traitée par l'application et peut mettre un certain temps à être réalisée (en général quelques dizaines de secondes).",
+                "6. 📁 Vous pouvez ensuite sauvegarder les résultats obtenus dans l'onglet Résultats."],
+                "image1":"./user_guide_screens/screen_detection_default.png",
+                "image2":"./user_guide_screens/screen_detection_done.png"
+            }
+        },
+
+        "results_container":{
+            "header": "L'onglet Résultats",
+            "content": ["*Dans cet onglet, vous pouvez visualiser les résultats de la détection de l'intention de mouvement ou du mouvement et enregistrer les images.*",
+                "- Après avoir réalisé la détection, les résultats s'affichent dans cet onglet.",    
+            "- Vous pouvez également sauvegarder les images obtenues."],
+            "image":"./user_guide_screens/screen_results.png",
+            "results":{
+                "header": "*Etape 5* : Affichage des résultats de la détection :",
+                "content": ["1. 🎯 Cette étape vous permet de visualiser les résultats de la détection de l'intention de mouvement.",
+                "2. ⚠️ Assurez-vous d'avoir mis en ligne un fichier dans la barre à gauche de la page et d'avoir réalisé une détection. Si aucune détection n'est réalisée, cet onglet n'affiche rien.",
+                "3. ✅ Une fois la détection réalisée, les résultats s'affichent dans cet onglet. Cette courbe correspond à la densité de probabilité d'intention de mouvement ou de mouvement, seuillée avec un seuil de 0.5. Les zones où la probabilité est supérieure au seuil sont surlignées en jaune.",
+                "4. 📅 Les informations se mettent à jour une fois la détection réalisée, indiquant le type détecté (intention ou mouvement) et le seuil.",
+                "5. ❓ Vous pouvez également sauvegarder les résultats obtenus mettant l'image en plein écran puis en cliquant droit sur l'image et sur *Enregistrer sous*"],
+                "image":"./user_guide_screens/screen_results_done.png"
+            }
+        }
+    }
+}
