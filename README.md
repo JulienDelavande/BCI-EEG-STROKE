@@ -82,4 +82,3 @@ Most folders contains a `README.md` file with more detailed information about th
 - **Data Scientist (OTSU, Neuro-IA)**: Aurélien Deniau
 - **Data Scientist (SD-IF, Neuro-IA)**: Brice Appenzeller
 - **Data Scientist (SDD, Neuro-IA)**: Julien Delavande
-# BCI-EEG-STROKE
